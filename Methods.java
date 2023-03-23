@@ -66,7 +66,7 @@ public class Methods {
     public static void CreateImages(Image[] imgs){
         BufferedImage all = null;
         try {
-            all = ImageIO.read(new File("C:\\Users\\terzi\\Desktop\\C\\files\\Chess\\chess.png"));
+            all = ImageIO.read(new File("\\chess.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
